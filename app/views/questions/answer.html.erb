@@ -1,0 +1,12 @@
+<div class="container mt-5">
+  <h1 class="mb-4">DeepThink answers you:</h1>
+  <blockquote class="border-start ps-3 mb-4">
+    <p class="mb-1"><%= @question %></p>
+    <footer class="text-muted">—You</footer>
+  </blockquote>
+  <div class="p-4 mb-4" style="background-color: #FFF9D6; border-left: 4px solid #ccc;">
+    <h4 class="fw-bold"> <%= @answer %> </h4>
+    <footer class="text-muted">—DeepThink</footer>
+  </div>
+  <%= link_to "Try again", ask_path, class: "text-primary" %>
+</div>

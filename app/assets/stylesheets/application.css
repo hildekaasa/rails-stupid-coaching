@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+blockquote {
+  font-size: 1.1rem;
+}
+
+blockquote footer {
+  margin-top: 0.25rem;
+}
